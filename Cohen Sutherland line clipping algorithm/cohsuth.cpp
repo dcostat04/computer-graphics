@@ -38,6 +38,10 @@ break;
 }
 else if((outcode1 & outcode2)!=0)
 {
+  cleardevice();
+	rectangle(xmin,ymin,xmax,ymax);
+	cout<<"\n the line is outside the window\n";
+	getch();
 break;
 }else
 {
